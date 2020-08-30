@@ -1,0 +1,72 @@
+<!DOCTYPE>
+<html>
+<head>
+<style type="text/css">
+a[target=_blank]{
+}
+div{
+	text-align:right;
+}
+li{
+	display:inline;
+}
+a:link{
+	text-decoration:none;
+	text-align:right;
+}
+a:visited{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a:active{
+	background-color:#330033;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #800040;
+  }
+ table,th,td{
+	border: 3px solid black;
+	border-collapse:collapse;
+ }
+ <script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</style>
+</head>
+<body>
+<a href="https://www.iiit.ac.in/" target="_blank"><img src="iiit-h.jpg" alt="iiit-h logo" width="140" height="100"></a>
+<div>
+<h2><a href="https://serc.iiit.ac.in/rdip" target="_blank">RDIP</a></h2>
+</div>
+<ul>
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a class="active" href="registration.html">Registration Form</a></li>
+</ul>
